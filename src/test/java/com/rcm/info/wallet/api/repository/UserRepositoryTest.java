@@ -1,5 +1,6 @@
 package com.rcm.info.wallet.api.repository;
 
+import com.rcm.info.wallet.api.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,7 +21,7 @@ public class UserRepositoryTest {
         User user = new User();
         user.setName("Fernanda");
         user.setPassword("123");
-        user.serEmail("fernanda@email.com");
+        user.setEmail("fernanda@email.com");
 
         User response = userRepository.save(user);
         assertNotNull(response);
