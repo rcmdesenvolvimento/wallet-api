@@ -1,4 +1,4 @@
-package com.rcm.info.wallet.api.repository;
+    package com.rcm.info.wallet.api.repository;
 
 import com.rcm.info.wallet.api.entity.User;
 import org.junit.After;
